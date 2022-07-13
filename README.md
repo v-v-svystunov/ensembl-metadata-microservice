@@ -68,7 +68,7 @@ To run application.
 
 To apply tests.	 
 
-1. With activated Serving Flask app 'run' (lazy loading) by point (9) of the previous story
+1. With activated Serving Flask app 'run' (lazy loading) by point (8) of the previous story
    do ::
    
    $source e_venv/bin/activate
