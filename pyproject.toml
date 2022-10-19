@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ensembl_public_package_v-v-svystunov"
+version = "0.0.1"
+authors = [
+  { name="Ensembl Public Author", email="valeriy.v.svystunov@gmail.com" },
+]
+description = "Publicly useful packages to colaborate with ensembl"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Linux",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/v-v-svystunov/ensembl-metadata-microservice"
+"Bug Tracker" = "https://github.com/v-v-svystunov/ensembl-metadata-microservice/issues"

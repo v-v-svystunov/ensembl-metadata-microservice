@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/var/www/pymicro/ensembl/ensembl_venv"
+VIRTUAL_ENV="/home/vvs/py/ensembl_git/ensembl-metadata-microservice/ensembl_venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

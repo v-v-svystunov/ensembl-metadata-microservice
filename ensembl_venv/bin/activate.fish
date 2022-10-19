@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/var/www/pymicro/ensembl/ensembl_venv"
+set -gx VIRTUAL_ENV "/home/vvs/py/ensembl_git/ensembl-metadata-microservice/ensembl_venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
